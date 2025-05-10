@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #e50914;
+  --secondary-color: #221f1f;
+  --text-color: #fff;
+  --light-text: #b3b3b3;
+  --background: #141414;
+  --section-bg: #181818;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Arial Black', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: var(--background);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 5rem 1rem;
+  background: var(--section-bg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--light-text);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #b0060f;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  section {
+    padding: 3rem 1rem;
+  }
+} 

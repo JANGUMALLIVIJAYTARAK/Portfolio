@@ -30,8 +30,8 @@ const Projects = () => {
       live: 'https://wanderlust-v9l0.onrender.com/listings'
     },
     {
-      title: 'Task TImer App',
-      description: 'TimeGuide is a dynamic task management app that boosts productivity by letting users assign time slots to activities. It provides real-time alerts, prompts for delay reasons, and learns from user input to reduce recurring setbacks—helping users stay focused, prioritize better, and reach their goals.',
+      title: 'Task Timer App',
+      description: 'A web application built with the MERN Stack that helps users allocate time for tasks and sends pop-up alerts when they exceed the set limit. It’s a simple, browser-based tool designed to keep users organized, avoid time wastage, and boost productivity.',
       image: 'images/timetask.png',
       technologies: [ 'ReactJS', 'Node.js', 'Express.js','MongoDB'],
       github: 'https://github.com/JANGUMALLIVIJAYTARAK/Time-Task-Managment',

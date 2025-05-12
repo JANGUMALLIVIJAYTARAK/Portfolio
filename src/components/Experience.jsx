@@ -13,6 +13,7 @@ const experiences = [
       'Developed a system using DevOps tools for efficient book cataloging, user management, and automated tracking.',
       'Technologies: Jenkins, Git, GitHub',
     ],
+    github: 'https://github.com/JANGUMALLIVIJAYTARAK/Library-Management-System-Hackathon',
   },
   {
     role: 'National Level Hackathon 2024 - Merit Certificate',
